@@ -6,29 +6,50 @@ html{
   opacity: 0.9;
 }
 
-.title{
+.title img{
   height: 50px;
-  padding: 9.5px 10px;
+  padding: 10px;
 }
 
 nav{
-  text-decoration: underline;
+  display: inline-flex;
 }
 
+.nav{
+  display: flex;
+    text-decoration: underline;
+}
+
+.nav p{
+  display: flex;
+  justify-content: flex-end;
+}
+
+p nav{
+  margin: 10px;
+}
 .header{
-  display: inline-flex;
-  border-bottom: 1px solid seashell;
+  display: flex;
+    align-items: center;
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    z-index: 10;
+    border-bottom: 1px solid seashell;
+    background-color: black;
 }
 
 .mission{
-  height: 700px;
-  width: 1200px;
+  display: flex;
+  align-content: center;
+    height: 700px;
+    width: 100%;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg")
-  text-align: center;
 }
 
 h2,
 h4 {
+  text-align: center;
   background-color: black;
 }
 
@@ -41,6 +62,7 @@ h4 {
 .locations{
   height: 500px;
   width: 1200px; /** might not be right **/
+  /** width: 100%**/
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg")
 }
 
@@ -57,16 +79,32 @@ footer{
 .downtown,
 .east,
 .oakdale{
+  background-color: black;
+  text-align: center;
   display:inline-block;
 }
 
 .month{
-  display: inline-flex;
+  align-items: center
 }
 
+.three{
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  text-align: center;
+}
+
+.two{
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  text-align: center;
+}
 .image{
-  height: 200px;
-  flex-wrap: wrap;
+  text-align: center;
 }
 
 .top{
@@ -77,4 +115,9 @@ footer{
 
 img {
   margin: 10px;
+}
+
+.image img{
+  height: 200px;
+  width: 300px;
 }
