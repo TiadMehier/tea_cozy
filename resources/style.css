@@ -1,0 +1,80 @@
+html{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.title{
+  height: 50px;
+  padding: 9.5px 10px;
+}
+
+nav{
+  text-decoration: underline;
+}
+
+.header{
+  display: inline-flex;
+  border-bottom: 1px solid seashell;
+}
+
+.mission{
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg")
+  text-align: center;
+}
+
+h2,
+h4 {
+  background-color: black;
+}
+
+.locations div {
+  margin: 40px;
+  width: 300px;
+  opacity: 1;
+}
+
+.locations{
+  height: 500px;
+  width: 1200px; /** might not be right **/
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg")
+}
+
+footer{
+  height: 200px;
+  text-align: center;
+}
+
+.copyright{
+  padding:20px;
+  text-align: left;
+}
+
+.downtown,
+.east,
+.oakdale{
+  display:inline-block;
+}
+
+.month{
+  display: inline-flex;
+}
+
+.image{
+  height: 200px;
+  flex-wrap: wrap;
+}
+
+.top{
+  background-color: none;
+  text-align: center;
+  margin: 15px;
+}
+
+img {
+  margin: 10px;
+}
