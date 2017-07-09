@@ -11,6 +11,10 @@ html{
   padding: 10px;
 }
 
+.missiontext{
+  background-color: black;
+}
+
 nav{
   display: inline-flex;
 }
@@ -23,6 +27,22 @@ nav{
 .nav p{
   display: flex;
   justify-content: flex-end;
+}
+
+.ourmission h2{
+  text-align: center;
+  justify-content: center;
+  display: block;
+  vertical-align: center;
+  padding: 0;
+}
+
+.list h4{
+  text-align: center;
+  justify-content: center;
+  display: block;
+  vertical-align: center;
+  padding: 0;
 }
 
 p nav{
@@ -40,10 +60,11 @@ p nav{
 }
 
 .mission{
-  display: flex;
+  display: block;
   align-content: center;
+  padding-top: 69px;
     height: 700px;
-    width: 100%;
+    width: 1200px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg")
 }
 
@@ -54,7 +75,7 @@ h4 {
 }
 
 .locations div {
-  margin: 40px;
+  margin: 20px;
   width: 300px;
   opacity: 1;
 }
@@ -85,22 +106,18 @@ footer{
 }
 
 .month{
-  align-items: center
+  justify-content: center;
 }
 
 .three{
   display: inline-flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
+  justify-content: center;
   text-align: center;
 }
 
 .two{
   display: inline-flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
+  justify-content: center;
   text-align: center;
 }
 .image{
