@@ -17,12 +17,12 @@ html{
 }
 
 nav{
-  display: inline-flex;
+  display:flex;
   justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .nav{
-  display: flex;
     text-decoration: underline;
 }
 
@@ -52,6 +52,8 @@ p nav{
 }
 .header{
   display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 69px;
@@ -59,6 +61,11 @@ p nav{
     z-index: 10;
     border-bottom: 1px solid seashell;
     background-color: black;
+}
+
+.title img{
+  display: flex;
+    justify-content: flex-start;
 }
 
 .mission{
@@ -107,18 +114,23 @@ footer{
   display:inline-block;
 }
 
+.location_flex{
+  display: flex;
+  justify-content: center;
+}
+
 .month{
   justify-content: center;
 }
 
 .three{
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   text-align: center;
 }
 
 .two{
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   text-align: center;
 }
