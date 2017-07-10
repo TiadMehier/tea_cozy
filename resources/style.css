@@ -11,6 +11,10 @@ html{
   padding: 10px;
 }
 
+a{
+  color: seashell;
+}
+
 .missiontext{
   background-color: black;
   width: 1200px;
@@ -26,7 +30,8 @@ nav{
     text-decoration: underline;
 }
 
-p .nav{
+.nav p{
+  padding: 10px;
   display: flex;
   justify-content: space-around;
 }
@@ -114,7 +119,7 @@ footer{
   display:inline-block;
 }
 
-.location_flex{
+.location-flex{
   display: flex;
   justify-content: center;
 }
