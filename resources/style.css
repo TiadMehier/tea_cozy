@@ -18,17 +18,17 @@ html{
 
 nav{
   display:flex;
-  justify-content: flex-end;
   justify-content: space-between;
 }
 
 .nav{
+
     text-decoration: underline;
 }
 
 p .nav{
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
 }
 
 .ourmission h2{
