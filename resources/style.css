@@ -13,10 +13,12 @@ html{
 
 .missiontext{
   background-color: black;
+  width: 1200px;
 }
 
 nav{
   display: inline-flex;
+  justify-content: flex-end;
 }
 
 .nav{
@@ -24,7 +26,7 @@ nav{
     text-decoration: underline;
 }
 
-.nav p{
+p .nav{
   display: flex;
   justify-content: flex-end;
 }
@@ -61,7 +63,6 @@ p nav{
 
 .mission{
   display: block;
-  align-content: center;
   padding-top: 69px;
     height: 700px;
     width: 1200px;
@@ -70,8 +71,9 @@ p nav{
 
 h2,
 h4 {
-  text-align: center;
-  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .locations div {
