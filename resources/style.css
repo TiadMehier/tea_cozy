@@ -124,6 +124,14 @@ footer{
   justify-content: center;
 }
 
+.locations-flex div{
+  padding: 10px;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .month{
   justify-content: center;
 }
