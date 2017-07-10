@@ -18,7 +18,7 @@ a{
 .missiontext{
   margin-top: 300px;
   background-color: black;
-  width: 1200px;
+  width: 100%;
 }
 
 nav{
@@ -78,9 +78,10 @@ p nav{
   display: block;
   padding-top: 69px;
     height: 700px;
-    width: 1200px;
+    width: 100%;
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 h2,
@@ -97,9 +98,10 @@ h4 {
 
 .locations{
   height: 500px;
-  width: 1200px; /** might not be right **/
-  /** width: 100%**/
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg")
+  width: 100%;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 footer{
@@ -125,7 +127,7 @@ footer{
   justify-content: center;
 }
 
-.locations-flex div{
+.location-flex div{
   padding: 10px;
   flex-basis: 280px;
   display: flex;
